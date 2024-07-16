@@ -16,3 +16,9 @@ include_reference_documentation = "false"
 [tool.portray.mkdocs]
 plugins = ["search", "awesome-pages"]
 edit_uri = "edit/main"
+
+[tool.portray.mkdocs.theme]
+name="terminal"
+#favicon
+#logo
+#palette
