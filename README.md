@@ -12,11 +12,9 @@ The [github pages](https://robbintt.github.io/outlines/) are rendered with [port
 - Portray is configured in `pyproject.toml`
 - requiring the project to have a `docs` directory for now (maybe there is some hack to get rid of the `docs/` top level directory.
 
-### Rebuilding
+### Rebuilding Locally (debugging only)
 
-FIXME
-
-- Rebuild github pages in the `~/code/outlines` project root using virtualenv: `~/virtualenvs/portray`.
+- make a virtualenv
   - publish with the command: `portray on_github_pages`
 - Rebuild the portray virtualenv by simply installing `portray` and `mkdocs-awesome-pages-plugin`.
 
